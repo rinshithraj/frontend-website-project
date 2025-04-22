@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif, arial;
+    background: radial-gradient(#0099ff, #000000);
+    color: white;
+  }
+  .hover-img {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 15px 40px;
+    font-family: system-ui,'Segoe UI', sans-serif, arial;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  .logo {
+    margin-top: 10px; 
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  .nav-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .nav-actions .icon {
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .welcome-banner img {
+    width: 100%;
+    left: 0px;
+    max-height: 515px;
+    position: relative;
+    border-radius: 0px;
+    margin: 20px 0;
+  }
+  
+  /* Main Cards Section */
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #ffffffc4;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  .card h3 {
+    margin-bottom: 15px;
+  }
+  
+  .featured img, .leaderboard img, .events img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .nav-actions a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .hover-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .hover-img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+  .hover-img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  .logo img:hover {
+    filter: drop-shadow(0 0 10px #fff);
+  }
+  .logo img {
+    transition: transform 0.3s ease;
+  }
+  
+  .logo img:hover {
+    transform: scale(1.05);
+  }
+  .nav-links a {
+    color: white; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff7b00;
+    transform: scale(1.1);
+  }
+  .nav-actions button {
+    background-color: #22222244;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .nav-actions button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-actions button:hover {
+    background-color: #000000c4;
+    transform: scale(1.05);
+  }
+  .welcome-banner {
+    transition: all 0.3s ease;
+  }
+  
+  .welcome-banner:hover {
+    filter: drop-shadow(0 0 10px #000000) brightness(1.2);
+    transform: scale(1.0);
+  }
+ 
+  
